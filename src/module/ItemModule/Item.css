@@ -1,0 +1,26 @@
+.pink-button {
+    color: var(--white);
+    background-color: var(--pink);
+    border-color: var(--pink);
+}
+
+.pink-button:hover {
+    color: var(--white);
+    background-color: #d1387e;
+    border-color: #ba3270;
+}
+
+.pink-button.focus, .pink-button:focus {
+    color: #fff;
+    background-color: #d1387e;
+    border-color: #ba3270;
+    box-shadow: 0 0 0 0.2rem rgba(130,138,145,.5);
+}
+
+.pink-button:not(:disabled):not(.disabled).active,
+.pink-button:not(:disabled):not(.disabled):active,
+.show>.pink-button.dropdown-toggle {
+    color: #fff;
+    background-color: #ba3270;
+    border-color: #a22b62;
+}
